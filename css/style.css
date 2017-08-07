@@ -672,14 +672,16 @@ form#commentform textarea {
 .item-thumbs .hover-wrap .overlay-img-thumb {
 	position: absolute;
 	border-radius: 60px;
-	top: 50%;
-	left: 50%;
+	top: -6px;
+	left: 705px;
 	margin: -16px 0 0 -16px;
 	color: #fff;
 	font-size: 32px;
-	line-height: 1em;	
+	line-height: 1em;
 	opacity: 1;
 	filter: alpha(opacity=100);
+	width: 50;
+	height: 50;
 }
 
 
@@ -1968,8 +1970,19 @@ article img.pull-right, article .align-right{
 		height:20px;
 		font-size:14px;
 	}
-
-
+	
+	
+	
+	 .more a.jt {
+		margin: 25px auto;
+		width: 28px;
+		height: 16px;
+		display: block;
+		cursor: pointer;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("/img/jt.png");
+	}
 }
 
 @media (max-width: 360px) {
