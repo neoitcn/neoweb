@@ -131,7 +131,7 @@ header .navbar {
 }
 
 
-header .navbar-collapse  ul.navbar-nav {
+header .navbar-collapse ul.navbar-nav {
     float: right;
     margin-right: 0;
 }
@@ -173,7 +173,8 @@ header .navbar {
 
 header .navbar-nav > li  {
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 40px;
+	padding-left: 50px;
 }
 
 header  .navbar-nav > li > a {
@@ -226,7 +227,7 @@ header .nav li .dropdown-menu  {
 }
 
 header .nav li .dropdown-menu li a {
-   line-height: 28px;
+   line-height: 30px;
    padding: 3px 12px;
 }
 
@@ -313,7 +314,11 @@ ul.nav li.dropdown a {
 	display:none;
 }
 
-.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+.copyrights{
+	text-indent:-9999px;height:0;		     line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
 
 /* ===================================
 5. Section: Featured
@@ -453,7 +458,7 @@ section.callaction {
 ==================================== */
 
 #inner-headline{
-	background:#252525;
+	background:#E0FFFF;
 	position:relative;
 	margin:0;
 	padding:0;
@@ -1813,7 +1818,7 @@ article img.pull-right, article .align-right{
 
 
 	
-	footer .widget form  input#appendedInputButton {
+	footer .widget form input#appendedInputButton {
 		  display: block;
 		  width: 91%;
 		  -webkit-border-radius: 4px 4px 4px 4px;
@@ -1845,11 +1850,11 @@ article img.pull-right, article .align-right{
     padding-left: 0;
   }
 	.navbar-brand {
-		margin-top: 10px;
+		margin-top: -20px;
 		border-bottom: none;
 	}
 	.navbar-header {
-		margin-top: 20px;
+		margin-top: 25px;
 		border-bottom: none;
 	}
 	
@@ -1914,7 +1919,7 @@ article img.pull-right, article .align-right{
 	#inner-headline .breadcrumb {
 		float:left;
 		clear:both;
-		width:100%;
+		/*width:100%;*/
 	}
 
 	.breadcrumb > li {
