@@ -1,18 +1,43 @@
 @charset "utf-8";
 /* CSS Document */
 /* common */
-body,div,h1,h2,h3,h4,h5,h6,dl,dd,dt,p,a,form,select,input,ul,ol,li{margin:0; padding:0; text-indent:0; font-weight:normal;font-size:14px; font-family:'Microsoft YaHei', sans-serif;color:#000000;}
-ul,ol{list-style:none; text-indent:0; list-style-position:outside;}
-img{border:0;}
-b{font-weight:normal}
-.fl{float:left;display:inline;}
-.fr{float:right;display:inline;}
+body,div,h1,h2,h3,h4,h5,h6,dl,dd,dt,p,a,form,select,input,ul,ol,li{
+    margin:0;
+    padding:0;
+    text-indent:0;
+    font-weight:normal;
+    font-size:14px;
+    font-family:'Microsoft YaHei', sans-serif;
+    color:#000000;
+}
+ul,ol{
+    list-style:none;
+    text-indent:0;
+    list-style-position:outside;
+}
+img{
+    border:0;
+}
+b{
+    font-weight:normal
+}
+.fl{
+    float:left;
+    display:inline;
+}
+.fr{
+    float:right;
+    display:inline;
+}
 /* link : style */
-a{text-decoration:none;}
-a:hover{text-decoration:none;}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
 /*clear*/
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
     content: " ";
     display: table;
 }
@@ -22,7 +47,6 @@ a:hover{text-decoration:none;}
 
 
 
-/*ä¯ÀÀÆ÷¸üÐÂÌáÊ¾*/
 .browserupgrade{
     margin:0;
     z-index:9999;
@@ -156,7 +180,7 @@ body.fixed{
     float:left;
     font-size:13px;
     border:1px solid #f19187;
-    /*½«Ä¬ÈÏµÄselectÑ¡Ôñ¿òÑùÊ½Çå³ý*/
+    /*ï¿½ï¿½Ä¬ï¿½Ïµï¿½selectÑ¡ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½*/
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance:none;
@@ -1686,7 +1710,7 @@ body.fixed{
 
 
 
-/*ÊÖ»úÖÐÐÄ*/
+/*ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .sjdidian{
     background: #fff;
     position: absolute;
@@ -1788,7 +1812,7 @@ body.fixed{
     display: none;
 }
 /**
-²»Í¬ÆÁÄ»¿í
+ï¿½ï¿½Í¬ï¿½ï¿½Ä»ï¿½ï¿½
 */
 @media screen and (max-width: 640px) {
     .sjdidian{

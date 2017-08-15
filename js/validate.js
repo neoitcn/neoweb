@@ -85,8 +85,8 @@ jQuery(document).ready(function($) {
 			   url: "contact/contact.php",
 			   data: str,
 			   success: function(msg){
-			$("#sendmessage").addClass("show");
-			$("#errormessage").ajaxComplete(function(event, request, settings){
+				$("#sendmessage").addClass("show");
+				$("#errormessage").ajaxComplete(function(event, request, settings){
 		
 			if(msg == 'OK')
 			{
@@ -96,7 +96,7 @@ jQuery(document).ready(function($) {
 			else
 			{
 				$("#sendmessage").removeClass("show");
-				result = msg;
+				result= msg;
 			}
 		
 			$(this).html(result);});}});
